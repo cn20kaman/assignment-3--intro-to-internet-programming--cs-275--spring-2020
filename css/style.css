@@ -3,4 +3,5 @@ td {
   border: 1px solid hsl(0, 100%, 50%);
   border-collapse: collapse;
   margin: auto;
+  padding: 10px;
 }
