@@ -6,6 +6,11 @@ td {
   padding: 10px;
 }
 
+.rotate {
+  animation: roll .5s;
+  transform: rotate(180deg);
+}
+
 @keyframes roll {
   0% {
     transform: rotate(0);
