@@ -11,6 +11,11 @@ td {
   transform: rotate(180deg);
 }
 
+.rotateBack {
+  animation: rollBack .5s;
+  transform: rotate(0deg);
+}
+
 @keyframes roll {
   0% {
     transform: rotate(0);
